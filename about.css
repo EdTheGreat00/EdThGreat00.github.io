@@ -1,0 +1,59 @@
+.Hobbies{
+	border: 3px solid black;
+    border-radius: 8px;
+	background-image: url(images/white.jpg);
+	font-family: 'Cabin', sans-serif;
+	width: 500px;
+	margin: auto;
+	text-align: left;
+	border-spacing: 15px;
+}
+
+body{
+	text-align: center;
+}
+
+.table, th, td{
+	border: solid;
+}
+
+th{
+	text-align: center;
+	color: black;
+}
+
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+
+h3{
+	font-family: 'Cabin', sans-serif;
+	padding-left: 1%;
+	padding-right: 1%;
+	color: black;
+}
+
+.button{
+	background-color: black; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 4px;
+}
+
+.button:hover{
+    background-color: #fa8072;
+    color: black;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+

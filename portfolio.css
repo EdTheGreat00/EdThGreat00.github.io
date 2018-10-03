@@ -1,0 +1,12 @@
+h1 {
+	font-family: 'Cabin', sans-serif;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	border-spacing: 15px;
+}
+
+li{
+	text-align: left;
+}
+

@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	Font-size: 20px;
+}
+
+h1, h2, h4{
+	font-family: 'Ubuntu', sans-serif;
+	Font-size: 60px
+}
+
+.button{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 4px;
+}

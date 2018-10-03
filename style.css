@@ -1,0 +1,51 @@
+body {
+	background-image: url("wallpaper.jpg");
+	background-attachment: fixed;
+	background-position: 50%;
+	background-size: auto;
+	
+}
+#nav{
+	list-style-type: none;
+	margin: -8px;
+	padding: 0;
+	overflow: hidden;
+	background-color: Black;
+    cursor: pointer;
+}
+
+#nav li{
+	float: left;
+}
+
+#nav li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px;
+	font-family: 'Ubuntu', sans-serif;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#nav li a:hover{
+	background-color: #fa8072;
+	color: black;
+}
+
+#part1{
+	float: right;
+	border:5px solid green;
+	width: 500px;
+}
+
+.light{
+	background-color: white;
+	text-align: center;
+}
+
+
+
+	
