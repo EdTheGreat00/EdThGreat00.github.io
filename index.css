@@ -1,10 +1,8 @@
 button {
-    background-color: #fa8072; 
-    border: none;
     color: white;
-    padding: 16px 32px;
+    background-size: 100%;
+    padding: 64px 64px;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 0 auto;
     -webkit-transition-duration: 0.4s; 
@@ -14,11 +12,14 @@ button {
 	border-radius: 4px;
 }
 
-
-button{
-    background-color: black; 
+h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 80px;
+    text-align: center;
+    width: 60%;
+    padding-left: 400px;
+    padding-right: 100px;
     color: white;
-	font-family: 'Ubuntu', sans-serif;	
 }
 
 button:hover{
@@ -28,22 +29,13 @@ button:hover{
 	text-align: center;
 }
 
-.heading{
-	font-size: 50px;
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
-}
-
 h1{
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 120px;
+	color: white;
 }
 
-.image{
-	width: 60%;
-	border-radius: 6px;
-}
 
 body{
 	text-align: center;

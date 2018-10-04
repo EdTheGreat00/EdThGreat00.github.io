@@ -1,20 +1,30 @@
 .Hobbies{
 	border: 3px solid black;
+	font-size: 35px;
     border-radius: 8px;
 	background-image: url(images/white.jpg);
 	font-family: 'Cabin', sans-serif;
-	width: 500px;
+	width: 1000px;
 	margin: auto;
-	text-align: left;
 	border-spacing: 15px;
+	text-align: center;
+}
+
+.light{
+	color: white;	
 }
 
 body{
 	text-align: center;
 }
 
-.table, th, td{
+table, th, td, tr{
 	border: solid;
+	text-align: center;
+}
+
+table.table{
+	text-align: center;
 }
 
 th{
@@ -24,7 +34,9 @@ th{
 
 h1{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 50px;
+	font-size: 80px;
+	text-align: center;
+	color: white;
 }
 
 h3{
@@ -32,6 +44,8 @@ h3{
 	padding-left: 1%;
 	padding-right: 1%;
 	color: black;
+	text-align: center;
+	Color: white;
 }
 
 .button{
@@ -57,3 +71,11 @@ h3{
 	text-align: center;
 }
 
+h4{
+	font-size: 80px;
+	font-family: 'Cabin', sans-serif;
+	padding-left: 1%;
+	padding-right: 1%;
+	color: black;
+	text-align: center;
+}
