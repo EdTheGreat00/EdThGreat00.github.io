@@ -1,32 +1,11 @@
-button {
-    color: white;
-    background-size: 100%;
-    padding: 64px 64px;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 0 auto;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-    cursor: pointer;
-	font-family: 'Ubuntu', sans-serif;
-	border-radius: 4px;
-}
-
 h3{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 80px;
     text-align: center;
     width: 60%;
-    padding-left: 400px;
-    padding-right: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
     color: white;
-}
-
-button:hover{
-    background-color: #fa8072;
-    color: white;
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
 }
 
 h1{
@@ -36,7 +15,10 @@ h1{
 	color: white;
 }
 
-
 body{
 	text-align: center;
+}
+
+img{
+    border-radius: 10%;
 }

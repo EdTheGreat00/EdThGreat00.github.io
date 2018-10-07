@@ -1,15 +1,29 @@
 body{
 	text-align: center;
+	color: white;
 }
 
 p{
 	font-family: 'Ubuntu', sans-serif;
 	Font-size: 20px;
+	color: white;
 }
 
 h1, h2, h4{
 	font-family: 'Ubuntu', sans-serif;
-	Font-size: 60px
+	Font-size: 60px;
+	color: white;
+}
+
+h6{
+	border: 3px solid black;
+	font-size: 25px;
+    border-radius: 8px;
+	font-family: 'Cabin', sans-serif;
+	width: 1000px;
+	margin: auto;
+	border-spacing: 15px;
+	text-align: center;
 }
 
 .button{

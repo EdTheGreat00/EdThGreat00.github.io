@@ -2,7 +2,6 @@
 	border: 3px solid black;
 	font-size: 35px;
     border-radius: 8px;
-	background-image: url(images/white.jpg);
 	font-family: 'Cabin', sans-serif;
 	width: 1000px;
 	margin: auto;
@@ -23,7 +22,7 @@ table, th, td, tr{
 	text-align: center;
 }
 
-table.table{
+.table{
 	text-align: center;
 }
 
@@ -41,8 +40,6 @@ h1{
 
 h3{
 	font-family: 'Cabin', sans-serif;
-	padding-left: 1%;
-	padding-right: 1%;
 	color: black;
 	text-align: center;
 	Color: white;
@@ -65,7 +62,7 @@ h3{
 }
 
 .button:hover{
-    background-color: #fa8072;
+    background-color: #0099bf;
     color: black;
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
@@ -78,4 +75,5 @@ h4{
 	padding-right: 1%;
 	color: black;
 	text-align: center;
+	color: white;
 }

@@ -1,17 +1,23 @@
 body {
 	background-image: url("wallpaper.jpg");
 	background-attachment: fixed;
-	background-position: 1%;
 	background-size: auto;
+	min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
 	
 }
 #nav{
+	top: 0;
 	list-style-type: none;
+	position: fixed; 
 	margin: -8px;
 	padding: 0;
 	overflow: hidden;
 	background-color: Black;
     cursor: pointer;
+    width: 100%
 }
 
 #nav li{
@@ -31,7 +37,7 @@ body {
 }
 
 #nav li a:hover{
-	background-color: #fa8072;
+	background-color: #0099bf;
 	color: black;
 }
 
